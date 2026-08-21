@@ -207,10 +207,13 @@ function App() {
               </button>
             </form>
 
-            <div className="mt-8 border-t border-slate-100 pt-6 text-center">
+            <div className="mt-8 border-t border-slate-100 pt-6 text-center space-y-1.5">
               <span className="text-[10px] text-slate-400 font-semibold tracking-wider uppercase block">
                 Kalasin University Online Project
               </span>
+              <p className="text-[11px] text-slate-500 font-bold">
+                คณะผู้พัฒนา: นาย ทรงยศ กองชา และ นาย ชลดรงค์ ยศรุ่งเรือง
+              </p>
             </div>
           </div>
         </div>
@@ -460,6 +463,13 @@ function App() {
                 </div>
               )}
             </div>
+
+            {/* Footer with Developer Names */}
+            <footer className="mt-16 text-center text-xs text-slate-400 space-y-1.5 pb-8 border-t border-slate-200/40 pt-8">
+              <p className="font-extrabold text-slate-500 uppercase tracking-widest text-[9px]">Kalasin University Online Project</p>
+              <p className="font-bold text-slate-600">คณะผู้พัฒนา: นาย ทรงยศ กองชา และ นาย ชลดรงค์ ยศรุ่งเรือง</p>
+              <p>© 2026 KSU Delivery. พัฒนาขึ้นเพื่อการศึกษาวิชา CE6841</p>
+            </footer>
           </main>
 
           {/* 5. ตะกร้าแบบลอยตัวแถบสรุปราคาด้านล่าง (Shaded Panel Cart Overlay) */}
