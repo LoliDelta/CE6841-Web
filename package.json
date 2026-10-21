@@ -1,0 +1,14 @@
+{
+  "name": "ce6841-ksu-delivery-workspace",
+  "private": true,
+  "version": "1.0.0",
+  "description": "โครงงานวิชา CE6841 - ระบบสั่งอาหารออนไลน์สำหรับร้านอาหาร (KSU Delivery)",
+  "scripts": {
+    "install-web": "npm --prefix ksu-delivery install",
+    "dev": "npm --prefix ksu-delivery run dev",
+    "start": "npm --prefix ksu-delivery run dev",
+    "build": "npm --prefix ksu-delivery run build",
+    "lint": "npm --prefix ksu-delivery run lint",
+    "preview": "npm --prefix ksu-delivery run preview"
+  }
+}
