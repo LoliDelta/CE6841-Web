@@ -1,0 +1,11 @@
+{
+  "buildCommand": "npm --prefix ksu-delivery install && npm --prefix ksu-delivery run build",
+  "outputDirectory": "ksu-delivery/dist",
+  "installCommand": "npm --prefix ksu-delivery install",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
